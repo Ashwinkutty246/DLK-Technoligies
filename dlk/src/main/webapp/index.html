@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <style>
+        /* CSS Styles */
+
+        
+        body, h1, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        nav {
+            background-color: #333;
+            overflow: hidden;
+            padding: 0.5rem 0;
+        }
+
+        .nav-link {
+            color: white;
+            text-decoration: none;
+            padding: 0.75rem 1.5rem;
+            display: inline-block;
+            font-size: 1rem;
+        }
+
+        .nav-link:hover {
+            background-color: #575757;
+            border-radius: 4px;
+        }
+
+        main {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Student Management System</h1>
+    </header>
+    <nav>
+        <a href="addStudent.jsp" class="nav-link">Add Student</a>
+        <a href="search.jsp" class="nav-link">Search Students</a>
+        <a href="viewstudents.jsp" class="nav-link">View Students</a>
+    </nav>
+    <main>
+        <p>Welcome to the Student Management System. Use the links above to manage student records.</p>
+    </main>
+</body>
+</html>
+
+<!-- This is a comment in HTML -->
+
+<!-- StudentManagementSystem/
+├── src/
+│   └── com/
+│       └── example/
+│           └── servlet/
+│               └── StudentServlet.java
+│           └── model/
+│               └── Student.java
+├── WebContent/
+│   ├── WEB-INF/
+│   │   ├── web.xml
+│   │   ├── lib/
+│   │   │   └── mysql-connector-java-8.x.x.jar  // JDBC driver
+│   ├── addStudent.jsp
+│   ├── updateStudent.jsp
+│   ├── viewStudents.jsp
+│   ├── index.jsp
+│   └── search.jsp
+└── pom.xml (if using Maven) -->
